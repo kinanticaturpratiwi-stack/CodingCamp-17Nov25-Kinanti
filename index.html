@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinan company</title>
+
+     <!-- css eksternal -->
+    <link rel="stylesheet" href="style.css">
+
+ <!-- Tailwind CDN-->
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+    
+<body>
+    <!-- harder content -->
+    <header class="main-header p-[8px]">
+            <!-- Logo Icon -->
+             <div class="logo-icon"></div>
+
+             <!-- Navigation Menu -->
+              <nav class="flex">
+                    <a class="border p-[4px] rounded" href="#home-page">Home</a>
+                    <a class="border p-[4px] rounded" href="#our-profile-page">Our Profile</a>
+                    <a class="border p-[4px] rounded" href="#portofolio-page">Portofolio</a>
+                    <a class="border p-[4px] rounded" href="#message-us-page">Massage us</a>
+              </nav>
+    </header>
+
+<hr/>
+
+<!-- main content -->
+    <main>
+        <!-- Home Page -->
+         <section id="home-page" class="min-h-screen text-center flex flex-col justify-center items-center px-4"> 
+            <h2 class="text-xl font-bold " id="welcome-speech">Welcome to Our Website</h2>
+            <p class="mt-2">We are glad to have you here. Explore our services and offerings.</p>
+         </section>
+
+        <hr/> 
+
+        <!-- Our Profile Page -->
+         <section id="home-page" class="min-h-screen text-center flex flex-col justify-center items-center px-4">
+         <h2 class="text-xl font-bold ">About Kinan Company</h2>
+          <p class="mt-2">Kinan Company is dedicated to proving top-notch services in various </p>
+         </section>
+          
+        <hr/>
+         
+        <!-- Portofolio Page -->
+         <section id="home-page" class="min-h-screen text-center flex flex-col justify-center items-center px-4">
+             <h2 class="text-xl font-bold ">Our Portofolio</h2>
+             <p class="mt-2">Take a look at our diverse range of projects that showcase our skills</p>
+         </section>
+
+        <hr/>
+
+        <!-- Message Us Page -->
+         <section id="prtofolio-us-page" class="min-h[500px] p-8 bg-gray-100-rounded">
+            <header>
+                <h2 class="text-xl font-bold">Message Us</h2>
+                <p class="mt-2">Have questions or want to work with us? send us a message and well get bcak to you promptly</p>
+            </header>
+
+            <form>
+                <div class="mb-4">
+                    <label class="block mb-2" for="name">Name :</label>
+                    <input class="w-full p-2 border rounded" type="text" id="name">
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2" for="email">Email:</label>
+                    <input class="w-full p-2 border rounded" type="email" id="email">
+                </div>
+                 <div class="mb-4">
+                    <label class="block mb-2" for="message">Message :</label>
+                    <textarea class="w-full p-2 border rounded resize-y" id="message" name="message"  rows="8"  >
+                    </textarea>
+                </div>
+                 <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">send message</button>
+             </form>
+        </section>   
+    </main>
+
+</hr>
+
+    <!-- footer content -->
+    <footer>
+        <span> @2025 Kinan company </span>
+    </footer>
+
+    <!-- javascript eksternal-->
+    <script src="js/script.js"></script>
+</body>
+</html>
